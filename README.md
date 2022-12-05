@@ -2,7 +2,7 @@
 Learning 3D Rendering with SDL2
 # Introducción 👾
 
-**Simple Direct Media Layer**(*SDL*) ****es un conjunto de bibliotecas diseñadas para proveer un acceso de bajo nivel a varios de los periféricos del computador.
+**Simple Direct Media Layer**(*SDL*) es un conjunto de bibliotecas diseñadas para proveer un acceso de bajo nivel a varios de los periféricos del computador.
 
 Con **SDL** podemos tener acceso de bajo nivel a la tarjeta de video vía APIs como **OpenGL, DirectX, Metal,** por lo que tenemos soporte a varias plataformas.
 
