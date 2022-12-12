@@ -65,20 +65,14 @@ void draw_pixel(int x, int y, uint32_t color)
         color_buffer[(window_width * y) + x] = color;
     }
 }
-void draw_rect(int x, int y, int width, int height, uint32_t color, uint32_t border_color)
+
+void draw_rect(int x, int y, int width, int height, uint32_t color)
 {
     for (int row = y; row < y + height; row++)
     {
         for (int col = x; col < x + width; col++)
         {
-            if (row < y + 2 || row > y + height - 2 || col < x + 2 || col > x + width - 2)
-            {
-                draw_pixel(col, row, border_color);
-            }
-            else
-            {
-                draw_pixel(col, row, color);
-            }
+            draw_pixel(col, row, color);
         }
     }
 }
